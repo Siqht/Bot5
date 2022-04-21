@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const { MessageEmbed } = require('discord.js');
 
 //put your token here
-const token = 'OTY2Njk3NDAyOTk0MTQ3MzI4.YmFhHQ.oSeqFjeuZlhf6xx0uwHwxTcUT4I';
+const token = 'OTY2Njk3NDAyOTk0MTQ3MzI4.YmFhHQ.hFYTg8gQCW-TDQjJzBw5WuYMx5U';
 
 const client = new Discord.Client({
       intents: [ "GUILDS","GUILD_MESSAGES","DIRECT_MESSAGES"]
@@ -65,5 +65,5 @@ const exampleEmbed = new MessageEmbed()
 
             
  //bot initalize                       
-client.login(token);
+client.login('OTY2Njk3NDAyOTk0MTQ3MzI4.YmFhHQ.hFYTg8gQCW-TDQjJzBw5WuYMx5U');
 
